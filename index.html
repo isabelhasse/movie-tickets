@@ -8,6 +8,54 @@
     <title></title>
   </head>
   <body>
-
+    <div class="container">
+      <form id="tickets">
+        <div class="radio">
+          <p>Name of Movie</p>
+          <label>
+            <input type="radio" name="movie" value="death-of-stalin" checked>
+            The Death of Stalin
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="movie" value="sacred-deer">
+             Killing Of A Sacred Deer
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="movie" value="Titanic">
+            Titanic
+          </label>
+        </div>
+        <div class="radio">
+          <p>Time of Movie</p>
+          <label>
+            <input type="radio" name="time" value="matinee" checked>
+            10:30 AM
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="night">
+             5:00 PM
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="night">
+            9:00 PM
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="age">Age: </label>
+          <input type="text" id="age">
+        </div>
+        <button type="submit" class="btn-default">Submit</button>
+      </form>
+      <div id="result">
+      </div>
+    </div>
   </body>
 </html>
